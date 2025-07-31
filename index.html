@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -8,46 +7,69 @@
   <style>
     body {
       margin: 0;
-      padding: 2rem;
-      background-color: #0d0d0d;
-      color: #fff;
       font-family: 'Segoe UI', sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      background-color: #000;
+      color: #fff;
       text-align: center;
+    }
+    .container {
+      padding: 2rem;
     }
     h1 {
       font-size: 2.5rem;
-      color: #ff7f7f;
+      color: #ff69b4;
     }
     p {
+      font-size: 1.2rem;
       max-width: 800px;
+      margin: 1rem auto;
       line-height: 1.8;
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
+      white-space: pre-line;
     }
-    footer {
-      margin-top: 2rem;
-      font-style: italic;
-      font-size: 0.95rem;
-      color: #aaa;
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
     }
-    audio {
-      display: none;
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+    }
+    iframe {
+      width: 0;
+      height: 0;
+      border: none;
     }
   </style>
 </head>
 <body>
-  <h1>Happy Girlfriend Day, Joiceline 💖</h1>
-  <p>Haii sayang, happy girlfriend day yaa cantik, akuu cuma mau ngucapin kalo aku bener-bener sayang sama kamu, aku bener-bener takut kehilangan kamu, aku sayang kamu lebih dari yang kamu tau, i'm so proud of u, segala apapun yang kamu lakuin aku bangga sama kamu, dan aku bakal selalu ada disini buat kamu sayang, nemenin semua proses kamu, aku harap kamu jugaa yaa</p>
-  <p>Maaf yaa buat semua kesalahan yang pernah aku buat, entah itu ngeboongin kamu atau apapun, akuu nyesel dan ingkar janji padahal akuu gamau ngeliat kamu ngeluarin air mata karna perbuatan aku, tapi aku malah ngelakuin ituu, maaf yaa sayang</p>
-  <p>Makasih jugaa yaa buat semuanya, ur my first experience, ur the best for me, akuu bener-bener bersyukur bisa kenal sama perempuan cantik bernama Joiceline Christian, pokoknya akuu banyak terima kasih dan maaf samaa kamuu</p>
-  <p>Semoga kitaa selalu sama-sama teruss yaa, aminnn<br/>Love u so much babe, mwahhhh<br/>Please don't go anymore, still here</p>
-  <footer>"Aku milikmu... malam ini, dan selamanya." 🎶</footer>
-  <audio autoplay loop>
-    <source src="assets/aku-milikmu.mp3" type="audio/mpeg">
-  </audio>
+  <!-- Lagu YouTube autoplay -->
+  <iframe src="https://www.youtube.com/embed/3DRrU2U7ZDo?autoplay=1&loop=1&playlist=3DRrU2U7ZDo" allow="autoplay"></iframe>
+
+  <div class="container">
+    <h1>Happy Girlfriend Day, Joiceline 💖</h1>
+    <p>
+Haii sayang, happy girlfriend day yaa cantik, akuu cuma mau ngucapin kalo aku bener-bener sayang sama kamu, aku bener-bener takut kehilangan kamu, aku sayang kamu lebih dari yang kamu tau, i'm so proud of u, segala apapun yang kamu lakuin aku bangga sama kamu, dan aku bakal selalu ada disini buat kamu sayang, nemenin semua proses kamu, aku harap kamu jugaa yaa
+
+Maaf yaa buat semua kesalahan yang pernah aku buat, entah itu ngeboongin kamu atau apapun, akuu nyesel dan ingkar janji padahal akuu gamau ngeliat kamu ngeluarin air mata karna perbuatan aku, tapi aku malah ngelakuin ituu, maaf yaa sayang
+
+Makasih jugaa yaa buat semuanya, ur my first experience, ur the best for me, akuu bener-bener bersyukur bisa kenal sama perempuan cantik bernama Joiceline Christian, pokoknya akuu banyak terima kasih dan maaf samaa kamuu
+
+Semoga kitaa selalu sama-sama teruss yaa, aminnn
+Love u so much babe, mwahhhh
+Please don't go anymore, still here
+    </p>
+    <div class="gallery">
+      <img src="images/img1.jpg" />
+      <img src="images/img2.jpg" />
+      <img src="images/img3.jpg" />
+      <img src="images/img4.jpg" />
+      <img src="images/img5.jpg" />
+      <img src="images/img6.jpg" />
+    </div>
+  </div>
 </body>
 </html>
